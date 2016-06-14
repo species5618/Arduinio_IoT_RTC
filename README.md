@@ -17,4 +17,7 @@ a--TI125612-- will set the time
 
 a--DA20160401 will set the date
 
+future updates may include ability to chose 24/12 hr mode, enable / disable SQ update of clock chip
+
+
 
