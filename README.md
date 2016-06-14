@@ -19,5 +19,5 @@ a--DA20160401 will set the date
 
 future updates may include ability to chose 24/12 hr mode, enable / disable SQ update of clock chip
 
-The hardware is a Arduino mini pro with a wireless things ERF connected to the FDTI pins , configure for at 57600 baud remote programming 
+The hardware is a Arduino mini pro with a wireless things ERF connected to the FDTI pins , configure for at 57600 baud remote programming , and a DS7103 module connected to the i2c bus with appropriate pull up resistors
 
