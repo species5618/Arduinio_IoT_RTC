@@ -99,7 +99,7 @@ void loop () {
 			}
 			else
 			{ 
-				//set time
+				//set time WIP untested
 				int hours = msg.substring(2, 4).toInt();
 				int mins = msg.substring(4, 6).toInt();
 				int seconds = msg.substring(6, 8).toInt();
@@ -114,17 +114,11 @@ void loop () {
 			}
         }
         else if (msg.startsWith("DA")) //Get Date
-        {
+        {  // neeed to add set date code here 
           RTCnow = RTC.now();
           reply = "" + RTCnow.year();
           reply += zeroPad(RTCnow.month());
           reply += zeroPad(RTCnow.day());
-        }
-        else if (msg.startsWith("DS")) // Set Date
-        {
-        }
-        else if (msg.startsWith("TS"))// Set Time
-        {
         }
         else    // it is an action message
         {
